@@ -1,20 +1,25 @@
 .footer {
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
-    .sn_container {
-        margin: 0 5px;
-    }
+  .sn_container {
+    margin: 0 5px;
+  }
 
-    .logo {
-        margin: auto;
-        width: 100px;
-    }
+  .logo {
+    margin: auto;
+    width: 100px;
+    position: relative;
+    left: 20px;
+  }
 
-    .sn_logo {
-        width: 25px;
-    }
+  .sn_logo {
+    width: 25px;
+  }
 }

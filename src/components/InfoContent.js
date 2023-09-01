@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/css/infoContent.scss"
+import "../assets/css/infoContent.scss";
 
 const InfoContent = () => {
   const [showMore, setShowMore] = useState(false);
@@ -11,16 +11,11 @@ const InfoContent = () => {
   return (
     <div className="container">
       <p>
-        ¡Bienvenido a nuestro rincón gastronómico! En nuestro sitio
-        web, te invitamos a embarcarte en un viaje culinario que te llevará a
-        descubrir una amplia variedad de restaurantes, desde los rincones más
-        acogedores hasta los destinos más exquisitos.
+        ¡Bienvenido a nuestro rincón gastronómico! En nuestro sitio web, te
+        invitamos a embarcarte en un viaje culinario que te llevará a descubrir
+        una amplia variedad de restaurantes, desde los rincones más acogedores
+        hasta los destinos más exquisitos.
       </p>
-      {!showMore && (
-        <button onClick={toggleShowMore} className="btn">
-          Show More
-        </button>
-      )}
       {showMore && (
         <>
           <p>
@@ -37,18 +32,23 @@ const InfoContent = () => {
             difícil, pero estamos aquí para hacerte la vida más fácil. ¡Así que
             adelante, explora nuestro catálogo y déjate llevar por el sabor! Ya
             sea una ocasión especial, una reunión con amigos o simplemente un
-            antojo repentino, estamos seguros de que encontrarás algo que te haga
-            sonreír.
+            antojo repentino, estamos seguros de que encontrarás algo que te
+            haga sonreír.
           </p>
           <p>
-            Gracias por visitarnos y ser parte de nuestra comunidad de amantes de
-            la buena comida. Estamos aquí para hacer que tus experiencias
+            Gracias por visitarnos y ser parte de nuestra comunidad de amantes
+            de la buena comida. Estamos aquí para hacer que tus experiencias
             culinarias sean memorables y deliciosas. ¡Buen provecho!
           </p>
           <button onClick={toggleShowMore} className="btn">
             Show Less
           </button>
         </>
+      )}
+      {!showMore && (
+        <button onClick={toggleShowMore} className="btn show-more-button">
+          Show More
+        </button>
       )}
     </div>
   );

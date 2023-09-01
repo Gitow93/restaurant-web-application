@@ -1,17 +1,26 @@
 .container {
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.552);
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
+  margin: 10px;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.711),
+    rgba(0, 0, 0, 0.092)
+  );
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    p {
-        text-align: center;
-    }
+  p {
+    text-align: center;
+  }
 
-    .btn {
-        margin: auto;
-        background-color: transparent;
-        border: none;
-        color: rgb(255, 204, 0)
-    }
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 204, 0);
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1200px) {
 }
