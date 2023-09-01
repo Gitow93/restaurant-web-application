@@ -1,0 +1,23 @@
+$font-stack: 'Abril Fatface', cursive;
+
+body {
+  background-image: url(../images/background-1.jfif), linear-gradient(rgba(7, 0, 0, 0.882), rgba(0, 0, 0));
+  background-repeat: no-repeat;
+  font-family: $font-stack;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 250px;
+}
+
+.sn_logo {
+  width: 40px;
+  margin: 5px;
+}

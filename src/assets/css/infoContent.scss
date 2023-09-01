@@ -1,0 +1,17 @@
+.container {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.552);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+    p {
+        text-align: center;
+    }
+
+    .btn {
+        margin: auto;
+        background-color: transparent;
+        border: none;
+        color: rgb(255, 204, 0)
+    }
+}
