@@ -1,0 +1,76 @@
+{
+    "restaurantes": [
+      {
+        "id": 1,
+        "nombre": "Restaurante 1",
+        "localizacion": "Dirección 1, Ciudad 1",
+        "tipo_comida": "Comida italiana",
+        "descripcion": "Un acogedor restaurante italiano que sirve pasta y pizzas auténticas.",
+        "horario": {
+          "lunes": "12:30 - 23:00",
+          "martes": "12:30 - 23:00",
+          "miércoles": "12:30 - 23:00",
+          "jueves": "12:30 - 23:00",
+          "viernes": "12:30 - 00:00",
+          "sábado": "12:30 - 00:00",
+          "domingo": "Cerrado"
+        },
+        "contacto": "123456789",
+        "valoracion": 4.5
+      },
+      {
+        "id": 2,
+        "nombre": "Restaurante 2",
+        "localizacion": "Dirección 2, Ciudad 2",
+        "tipo_comida": "Comida mexicana",
+        "descripcion": "Un colorido restaurante mexicano con auténticos tacos y margaritas.",
+        "horario": {
+          "lunes": "Cerrado",
+          "martes": "12:00 - 00:00",
+          "miércoles": "12:00 - 00:00",
+          "jueves": "12:00 - 00:00",
+          "viernes": "12:00 - 1:30",
+          "sábado": "12:00 - 1:30",
+          "domingo": "12:00 - 16:30"
+        },
+        "contacto": "123123123",
+        "valoracion": 4.0
+      },
+      {
+        "id": 3,
+        "nombre": "Restaurante 3",
+        "localizacion": "Dirección 3, Ciudad 3",
+        "tipo_comida": "Comida asiática",
+        "descripcion": "Un elegante restaurante asiático con sushi y platos de wok.",
+        "horario": {
+          "lunes": "12:30 - 00:00",
+          "martes": "12:30 - 00:00",
+          "miércoles": "cerrado",
+          "jueves": "12:30 - 00:00",
+          "viernes": "12:30 - 00:30",
+          "sábado": "12:30 - 00:30",
+          "domingo": "12:30 - 17:00"
+        },
+        "contacto": "987654321",
+        "valoracion": 4.2
+      },
+      {
+        "id": 4,
+        "nombre": "Restaurante 4",
+        "localizacion": "Dirección 4, Ciudad 4",
+        "tipo_comida": "Comida vegetariana",
+        "descripcion": "Un restaurante vegetariano con platos saludables y orgánicos.",
+        "horario": {
+          "lunes": "12:00 - 00:00",
+          "martes": "12:00 - 00:00",
+          "miércoles": "12:00 - 00:00",
+          "jueves": "cerrado",
+          "viernes": "12:30 - 01:00",
+          "sábado": "12:30 - 01:00",
+          "domingo": "12:30 - 00:00"
+        },
+        "contacto":"987987987",
+        "valoracion": 4.7
+      }
+    ]
+  }
