@@ -5,6 +5,8 @@
         "nombre": "Restaurante 1",
         "localizacion": "Dirección 1, Ciudad 1",
         "tipo_comida": "Comida italiana",
+        "foto_restaurante": "https://i.blogs.es/c4f88f/numa-pompilio/1366_2000.jpg",
+        "foto_comida":"https://media.istockphoto.com/id/1181973834/es/foto/comida-italiana-italiana.jpg?s=612x612&w=0&k=20&c=s-pofLnq5KRN0KpJIZD-g0PzmF44voEHRwoSSNksdUI=",
         "descripcion": "Un acogedor restaurante italiano que sirve pasta y pizzas auténticas.",
         "horario": {
           "lunes": "12:30 - 23:00",
@@ -23,6 +25,8 @@
         "nombre": "Restaurante 2",
         "localizacion": "Dirección 2, Ciudad 2",
         "tipo_comida": "Comida mexicana",
+        "foto_restaurante": "https://lastaquerias.com/wp-content/uploads/2022/05/la-taqueria-de-birra-step-pedro.jpg",
+        "foto_comida":"https://editorialtelevisa.brightspotcdn.com/dims4/default/109b266/2147483647/strip/true/crop/900x507+0+47/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.amazonaws.com%2Fbrightspot%2Fwp-content%2Fuploads%2F2021%2F06%2Fcomida-mexicana.jpg",
         "descripcion": "Un colorido restaurante mexicano con auténticos tacos y margaritas.",
         "horario": {
           "lunes": "Cerrado",
@@ -41,6 +45,8 @@
         "nombre": "Restaurante 3",
         "localizacion": "Dirección 3, Ciudad 3",
         "tipo_comida": "Comida asiática",
+        "foto_restaurante": "https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2020/11/19043906/china-crown.jpg",
+        "foto_comida":"https://blog.supermercadosmas.com/wp-content/uploads/2016/04/cocina-asiatica-supermercados-mas-recetas.jpg",
         "descripcion": "Un elegante restaurante asiático con sushi y platos de wok.",
         "horario": {
           "lunes": "12:30 - 00:00",
@@ -59,6 +65,8 @@
         "nombre": "Restaurante 4",
         "localizacion": "Dirección 4, Ciudad 4",
         "tipo_comida": "Comida vegetariana",
+        "foto_restaurante": "https://images.adsttc.com/media/images/5ab9/3634/f197/cc6e/5400/00b7/newsletter/0376.jpg?1522087455",
+        "foto_comida": "https://cdn.sanity.io/images/jsdrzfkj/production-esmx/780f9bacc5728c914d2dc09da6e2115e6b37d2cc-1200x800.jpg?w=800&h=533&fit=crop&fm=webp",
         "descripcion": "Un restaurante vegetariano con platos saludables y orgánicos.",
         "horario": {
           "lunes": "12:00 - 00:00",
