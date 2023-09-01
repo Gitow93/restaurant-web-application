@@ -1,16 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import './index.css';
+import "./index.css";
 import Home from "./layout/Home";
-import reportWebVitals from './reportWebVitals';
+import Bookings from "./layout/Bookings";
+import reportWebVitals from "./reportWebVitals";
 
-const router = 
-
-createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "bookings",
+    element: <Bookings />,
   },
 ]);
 
