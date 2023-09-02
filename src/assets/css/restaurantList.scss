@@ -19,13 +19,69 @@ h1 {
   gap: 1rem;
   overflow-x: scroll;
   padding-bottom: 50px;
+
+  @media screen and (min-width: 501px) and (max-width: 900px) {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: scroll;
+    background: none;
+    width: 70%;
+
+    .restaurant {
+      background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.711),
+        rgba(0, 0, 0, 0.544)
+      );
+    }
+
+    .content_wrapper {
+      display: grid;
+    }
+  }
+
+  @media screen and (min-width: 901px) {
+    display: grid;
+    grid-template-columns: auto auto;
+    background: none;
+
+    .restaurant {
+      background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.711),
+        rgba(0, 0, 0, 0.544)
+      );
+    }
+
+    .content_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .info_container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .i__container {
+      display: flex;
+      flex-direction: row;
+      gap: 2px;
+    }
+
+    .schedule {
+      width: 50%;
+    }
+  }
 }
 
 .restaurant {
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   color: white;
 
@@ -81,7 +137,4 @@ h1 {
     list-style: none;
     padding: 0;
   }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1200px) {
 }

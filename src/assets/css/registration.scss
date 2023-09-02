@@ -11,6 +11,52 @@
   margin: auto;
   margin-top: 100px;
 
+  @media screen and (min-width: 500px) and (max-width: 900px) {
+    .registration_form {
+      width: 50%;
+      margin-top: 5rem;
+      font-size: larger;
+      height: 350px;
+
+      .registration_cells {
+        margin: 1rem;
+      }
+
+      .cell {
+        font-size: 25px;
+      }
+
+      .register_btn {
+        margin-top: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 30px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 901px) {
+    width: 30%;
+    margin-top: 3rem;
+    font-size: larger;
+    height: 350px;
+
+    .registration_cells {
+      margin: 1rem;
+    }
+
+    .cell {
+      font-size: 25px;
+    }
+
+    .register_btn {
+      margin-top: 20px;
+      width: 200px;
+      height: 50px;
+      font-size: 30px;
+    }
+  }
+
   .registration_cells {
     display: flex;
     color: white;
@@ -25,6 +71,7 @@
     border: none;
     border-bottom: 2px solid rgb(250, 250, 250);
     margin: 10px 40px;
+    color: white;
   }
   .register_btn {
     font-size: 20px;
@@ -37,12 +84,14 @@
   }
 }
 
-a {
+.gb_link {
   color: rgb(245, 197, 4);
   display: flex;
   justify-content: center;
-}
-
-a:hover {
-  color: rgb(255, 255, 255);
+  font-size: 25px;
+  @media screen and (min-width: 500px) and (max-width: 900px) {
+    .gb_link {
+      margin-top: 50px;
+    }
+  }
 }

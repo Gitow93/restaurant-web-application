@@ -1,10 +1,17 @@
-$font-stack: 'Abril Fatface', cursive;
+$font-stack: "Abril Fatface", cursive;
 
 body {
   background: url(../images/background-1.jfif) no-repeat center center fixed;
   background-size: cover;
   font-family: $font-stack;
   font-size: 16px;
+
+  @media screen and (min-width: 901px) {
+    background: url(../images/background-2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: $font-stack;
+    font-size: 16px;
+  }
 }
 
 .header {

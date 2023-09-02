@@ -11,6 +11,21 @@
   flex-direction: column;
   justify-content: center;
 
+  @media screen and (min-width: 500px) and (max-width: 1200px) {
+    margin: auto;
+    width: 80%;
+  }
+
+  @media screen and (min-width: 901px) {
+    margin: auto;
+    width: 80%;
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.711),
+      rgba(0, 0, 0, 0.636)
+    );
+  }
+
   p {
     text-align: center;
   }
@@ -20,7 +35,4 @@
     border: none;
     color: rgb(255, 204, 0);
   }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1200px) {
 }

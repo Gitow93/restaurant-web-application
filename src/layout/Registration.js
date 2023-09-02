@@ -10,7 +10,9 @@ const Registration = () => {
     <>
       <Header />
       <RegistrationForm />
-      <Link to={"/"}>Go Back</Link>
+      <Link className="gb_link" to={"/"}>
+        Go Back
+      </Link>
       <Footer />
     </>
   );

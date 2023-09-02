@@ -32,7 +32,11 @@ const RestaurantCard = (props) => {
   return (
     <div className="restaurant" key={restaurant.id}>
       <h2>{restaurant.nombre}</h2>
-      <img className="restaurant_picture" src={restaurant.foto_restaurante} />
+      <img
+        className="restaurant_picture"
+        src={restaurant.foto_restaurante}
+        alt={restaurant.descripcion}
+      />
       <p className="description_container">{restaurant.descripcion}</p>
 
       <div className="content_wrapper">
