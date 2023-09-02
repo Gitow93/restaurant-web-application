@@ -2,18 +2,33 @@ h1 {
   font-size: 20px;
 }
 
-.booking_cells {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 5px;
+.booking_form {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
 
-.cell {
-  border: none;
-  border-radius: 2px;
-  color: rgb(0, 0, 0);
-  background-color: rgb(232, 220, 96);
+  .booking_cells {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .cell {
+    border: none;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 220, 96);
+  }
+  .booking_btn {
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 110px;
+    height: 30px;
+    background: linear-gradient(rgb(235, 150, 52), rgb(245, 197, 4));
+    border: none;
+    border-radius: 5px;
+  }
 }

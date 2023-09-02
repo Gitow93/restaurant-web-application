@@ -30,9 +30,8 @@ const BookingForm = () => {
           <option value="14">14 personas</option>
           <option value="15">15 personas</option>
         </select>
-
-        <input type="submit" value="Hacer Reserva" />
       </form>
+      <input className="booking_btn" type="submit" value="Hacer Reserva" />
     </div>
   );
 };
